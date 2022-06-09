@@ -1,0 +1,74 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+.main {
+    background-image: url(../Practice/test.png);
+    color: rgb(50, 205, 104);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+    text-align: center;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+    width: 55%;
+	margin: 0 auto;
+	padding: 1em;
+	display: flex;
+	flex-flow: column nowrap;
+}
+p {
+    margin: 1rem;
+}
+section {
+    flex-basis: 57%;
+    margin-right: 10%;
+}
+aside {
+    flex-basis: 33%;
+}
+fieldset {
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    margin: 0.6rem 0;
+    background-color: white;
+}
+label {
+    display: block;
+    margin: 1rem;
+  }
+textarea {
+    height: 4rem;
+    width: 20rem;
+    padding: 1rem;
+}
+select {
+    font-size: 1rem;
+}
+button {
+    font-size: 1rem;
+    margin: 1rem 0;
+    background-color: #bb342f;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+}
+button:hover {
+    background-color: white;
+    color: #bb342f;
+}
+input:not([type="radio"]):not([type="textarea"]) {
+    display: block;
+    margin: 0 0 2rem 1rem;
+    width: 20rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    padding: 0 1rem;
+    border: none;
+    border-bottom: 1px solid grey;
+}
