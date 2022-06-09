@@ -5,7 +5,7 @@ html {
     box-sizing: inherit;
 }
 .main {
-    background-image: url(test.png);
+    background-image: url(../idvd20.github.io/test.png);
     color: rgb(50, 205, 104);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
