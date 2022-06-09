@@ -60,7 +60,7 @@ button {
 }
 button:hover {
     background-color: white;
-    color: #bb342f;
+    color: #931713;
 }
 input:not([type="radio"]):not([type="textarea"]) {
     display: block;
